@@ -1,0 +1,157 @@
+.exits {
+  fill: #f26d6f;
+  stroke: black;
+  z-index: 1;
+}
+
+.extras {
+  z-index: -1;
+  fill: #b7b7b7;
+  stroke: black;
+  z-index: 1;
+}
+
+.offices {
+  fill: #72cfed;
+  stroke: black;
+  z-index: 1;
+}
+
+.bathrooms {
+  fill: #cdadd2;
+  stroke: black;
+  z-index: 1;
+}
+
+.hallways {
+  fill: #2d2d2d;
+  stroke: black;
+  z-index: -100;
+}
+
+.labs {
+  fill: #a1fd7d;
+  stroke: black;
+  z-index: 1;
+}
+
+.extend {
+  fill: #f8c779;
+  stroke: black;
+  z-index: 1;
+}
+
+.classrooms {
+  fill: #faa64b;
+  stroke: black;
+  z-index: 1;
+}
+
+.classrooms:hover {
+  fill: #ff8500;
+}
+
+#US_Floor1 {
+  transform: scale(1);
+  position: relative;
+  top: 75px;
+  left: 15px;
+  width: 100%;
+  height: 75%;
+}
+#US_Floor2 {
+  transform: scale(0.9);
+  position: relative;
+  top: 110px;
+  left: -20px;
+  width: 100%;
+  height: 75%;
+}
+#Reiland_Floor1 {
+  transform: scale(0.8);
+  position: relative;
+  top: 75px;
+  right: 50px;
+  width: 100%;
+  height: 75%;
+}
+#Sorkness_Floor1 {
+  transform: scale(1);
+  position: relative;
+  top: 225px;
+  left: 25px;
+  width: 100%;
+  height: 75%;
+}
+#Sorkness_Floor2 {
+  transform: scale(0.9);
+  position: relative;
+  top: 225px;
+  left: -25px;
+  width: 100%;
+  height: 75%;
+}
+#Sorkness_Floor3 {
+  transform: scale(1.2);
+  position: relative;
+  top: 225px;
+  left: 450px;
+  width: 100%;
+  height: 75%;
+}
+#Sorkness_Floor4 {
+  transform: scale(0.9);
+  position: relative;
+  top: 225px;
+  left: -20px;
+  width: 100%;
+  height: 75%;
+}
+#OrladyMckth_Floor1 {
+  transform: scale(1);
+  position: relative;
+  top: 150px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}
+#OrladyMckth_Floor2 {
+  transform: scale(1);
+  position: relative;
+  top: 150px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}
+#OrladyMckth_Floor3 {
+  transform: scale(0.95);
+  position: relative;
+  top: 150px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}
+#Lyngstad_Floor2 {
+  transform: scale(0.95);
+  position: relative;
+  top: 150px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}
+#Taber_Floor2 {
+  transform: scale(0.95);
+  position: relative;
+  top: 150px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}
+#Foss_Floor1 {
+  transform: scale(0.9);
+  position: relative;
+  top: 50px;
+  left: 10px;
+  width: 100%;
+  height: 75%;
+}

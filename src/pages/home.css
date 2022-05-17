@@ -1,0 +1,38 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100vh;
+}
+
+.map-container {
+  background-color: #ff9016;
+  border-right: 3px solid black;
+}
+
+.map-title {
+  padding: 30px;
+  margin: 0;
+  font-size: 3.6rem;
+  text-align: center;
+  border: 5px solid white;
+  background-color: #383838;
+  color: white;
+}
+
+.menu-container {
+  background-color: #383838;
+  border-left: 3px solid black;
+}
+
+.menu-title {
+  padding: 30px;
+  margin: 0;
+  font-size: 3.6rem;
+  text-align: center;
+  border: 5px solid white;
+  background-color: #ff9016;
+  color: black;
+}

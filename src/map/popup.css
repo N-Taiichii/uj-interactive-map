@@ -1,0 +1,44 @@
+.popup-container {
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  background-color: white;
+  position: fixed;
+  max-width: calc(50% - 3px);
+  box-shadow: 5px 5px 5px black;
+}
+
+.popup-name {
+  text-align: center;
+}
+
+@media (max-width: 1600px) {
+  .popup {
+    position: absolute;
+  }
+  .popup-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .popup {
+    position: fixed;
+    top: 150px;
+  }
+  .popup-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .popup {
+    position: fixed;
+    top: 230px;
+  }
+  .popup-name {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,17 @@
+.room-container {
+  background-color: white;
+  margin: 25px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.room-title {
+  font-size: 3rem;
+  text-align: center;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: -25px;
+}

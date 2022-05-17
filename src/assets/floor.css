@@ -1,0 +1,27 @@
+.floor {
+  background-color: #929196;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 827px;
+}
+
+.svg-container {
+  position: relative;
+  height: 827px;
+}
+
+.classes {
+  position: relative;
+  top: -95px;
+  height: 922px;
+}
+
+.classes-title {
+  font-size: 3rem;
+  position: relative;
+  top: -30px;
+  text-align: center;
+}

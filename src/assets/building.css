@@ -1,0 +1,28 @@
+.building {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 300px;
+  position: relative;
+  background-color: #ff9016;
+}
+
+.building-map-title {
+  background-color: #383838;
+  margin: 0;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#HomeButton {
+  position: absolute;
+  width: 150px;
+  text-align: center;
+  top: 100px;
+  z-index: 5;
+  right: 25px;
+}

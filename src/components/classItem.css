@@ -1,0 +1,44 @@
+.class-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.class-list {
+  background-color: #ff9016;
+  width: 100%;
+  position: relative;
+  top: 15px;
+  margin: 5px 25px;
+  border-radius: 5px;
+  box-shadow: 2px 2px black;
+  list-style: none;
+}
+
+.class-name {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.class-course {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.class-section {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.class-duration {
+  font-size: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.no-class {
+  font-size: 4rem;
+  color: black;
+}
